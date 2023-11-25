@@ -7,8 +7,8 @@ import java.util.*;
  * 例如，"ACGAATTCCG" 是一个 DNA 序列 。
  * 在研究 DNA 时，识别 DNA 中的重复序列非常有用。
  * 给定一个表示 DNA 序列 的字符串 s ，返回所有在DNA分子中出现不止一次的长度为10的序列(子字符串)。你可以按任意顺序返回答案。
- *
- *
+ * 
+ * 
  * 示例 1：
  * 输入：s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
  * 输出：["AAAAACCCCC","CCCCCAAAAA"]
