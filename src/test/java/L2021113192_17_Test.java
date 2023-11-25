@@ -25,7 +25,7 @@ public class L2021113192_17_Test {
 
         //字符串长度大于10且有重复
         String c="AAAAAAAAAAAAA";
-        assertTrue(test.findRepeatedDnaSequences(c).contains("AAAAAAAAA"));
+        assertTrue(test.findRepeatedDnaSequences(c).contains("AAAAAAAAAA"));
 
         String e="AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT";
         assertTrue(test.findRepeatedDnaSequences(e).contains("AAAAACCCCC"));
