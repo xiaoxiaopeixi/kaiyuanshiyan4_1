@@ -27,11 +27,15 @@ class Solution17 {
 
     public List<String> findRepeatedDnaSequences(String s) {
         List<String> ans = new ArrayList<String>();
-        int n = s.length();
+        int n ;
+        n = s.length();
         if (n <= L) {
             return ans;
         }
-        int x = 0;
+
+
+        int x ;
+        x=0;
         for (int i = 0; i < L - 1; ++i) {
             x = (x << 2) | bin.get(s.charAt(i));
         }
