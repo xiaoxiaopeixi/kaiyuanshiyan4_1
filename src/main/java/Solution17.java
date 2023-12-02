@@ -34,7 +34,8 @@ class Solution17 {
         }
 
 
-        int x = 0;
+        int x ;
+        x=0;
         for (int i = 0; i < L - 1; ++i) {
             x = (x << 2) | bin.get(s.charAt(i));
         }
